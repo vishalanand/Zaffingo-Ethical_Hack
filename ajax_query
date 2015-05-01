@@ -1,0 +1,28 @@
+$.ajax({        
+			   type: "POST",
+			   url: "ajax/add_testimonial.php",
+			   data: { for_user_id: ($('#add_profile_tm input[name="for_user_id"]').val()), testimonial: ("aaa") , privacy_status: 0 },
+			   success: function(data){	
+					location.reload(); //reloading from cache on saving changes  
+			   }
+			}); 
+$.ajax({        
+			   type: "POST",
+			   url: "ajax/add_testimonial.php",
+			   data: { for_user_id: ($('#add_profile_tm input[name="for_user_id"]').val()), testimonial: ("aaa") , privacy_status: 0 },
+			   success: function(data){	
+					location.reload(); //reloading from cache on saving changes  
+			   }
+			}); 
+$.ajax({        
+			   type: "POST",
+			   url: "ajax/add_testimonial.php",
+			   data: { for_user_id: (230), testimonial: ("aaa") , privacy_status: 1 }
+			}); 
+
+data={
+        'N': '4294966750',
+        'form-trigger': 'moreId',
+        'moreId': '156#327',
+        'pageType': 'EventClass'
+    },
